@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Open Sans,Arial,sans-serif;
+}
+
+		/*---mick---start--*/
+
+.mick{
+	background-image: linear-gradient(rgb(155 155 155 / 70%), rgb(161 161 161 / 70%)), url(hero_bg2.jpg);
+	text-align: center;
+    padding: 200px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.call-1-1 h1{
+	font-size: 96px;
+	color: #444235;
+    line-height: 1.3;
+}
+
+.call-1-1 span{
+	font-size: 20px;
+	letter-spacing: 8px;
+	line-height: 4;
+	color: #444235;
+}
+
+.call-1-1 a{
+	color: #ffffff;
+    letter-spacing: 6px;	
+    background-color: #d1af83;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: .4s all;
+}
+
+.call-1-1 a:hover{
+	padding-right: 20px;
+    padding-left: 20px;
+    letter-spacing: 10px;
+}
+
+			/*---mick---end--*/
+			
+			/*---Story---start--*/
+
+.story{
+	padding-top: 150px;
+	overflow: hidden;
+}
+
+.call-2-1{
+	width: 50%;
+	float: left;
+}
+
+.call-1-2 h1{
+	font-size: 60px;
+	line-height: 1.3;
+	color: #444235;
+	margin-bottom: 40px;
+}
+
+.call-1-2 p{
+	line-height: 1.8em;
+	color: #d1af83;
+	padding: 00px 50px 0px 0px;
+	font-size: 25px;
+}
+
+.call-1-3 p{
+	line-height: 1.9em;
+	color: rgba(68,66,53,0.8);
+	font-size: 19px;
+	padding: 1px 1px 15px 1px;
+}
+			
+			/*---Story---end--*/
+
+			/*---Aliquam---start--*/
+			
+.aliquam{
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+.call-3-1{
+	width: 30%;
+	float: left;
+	padding: 0px 95px;
+}
+
+.call-3-1 img{
+	max-width: 100%;
+    height: auto;
+	margin-bottom: 25px;
+}
+
+.call-3-1 h1{
+	color: #444235;
+    line-height: 2;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+.call-3-1 p{
+	font-size: 17px;
+	color: rgba(68,66,53,0.8);
+    line-height: 1.9em;
+	margin-bottom: 70px;
+}
+			
+			/*---Aliquam---end--*/
+			
+			/*---mick---start--*/
+
+@media (max-width: 960px){
+	.call-1-1 h1{
+	font-size: 50px;
+}
+
+.call-1-1 span{
+	font-size: 15px;
+}
+
+.call-1-1 a{
+	font-size: 15px;
+}
+
+}
+
+@media (max-width: 408px){
+	.call-1-1 span{
+	font-size: 10px;
+	letter-spacing: 3px;
+	line-height: 5;
+}
+
+.call-1-1 h1{
+	font-size: 30px;
+}
+
+.call-1-1 a{
+	font-size: 10px;
+}
+
+}
+
+			/*---mick---end--*/
+			
+			/*---Story---start--*/
+
+@media (max-width: 960px){
+	.call-2-1{
+	width: 100%;
+	float: none;
+}
+
+.call-1-2 h1{
+	text-align: center;
+	font-size: 45px;
+}
+.call-1-2 p{
+	line-height: 1.4em;
+	padding: 0px;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.call-1-3 p{
+	line-height: 1.6em;
+	font-size: 17px;
+	padding: 0px;
+}
+
+}
+
+@media (max-width: 960px){
+	.call-1-2 h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+			/*---Story---end--*/
+
+			/*---Aliquam---start--*/
+
+@media (max-width: 960px){
+	.call-3-1{
+	width: 100%;
+	float: none;
+	padding: 0px;
+}
+
+.call-3-1 img{
+	width: 100%;
+    height: auto;
+}
+
+}
+
+@media (max-width: 1187px){
+	.call-3-1{
+	width: 100%;
+	float: none;
+	padding: 0px;
+}
+}
+
+
